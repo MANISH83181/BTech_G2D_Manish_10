@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int n,sum=0;
+    printf("enter a number :");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        if(i%2!=0)
+        sum=sum+i;
+        else
+        sum=sum-i;
+    }
+    printf("sum of series : %d",sum);
+    return 0;
+}
